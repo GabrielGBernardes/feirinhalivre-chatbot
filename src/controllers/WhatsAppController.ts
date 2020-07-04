@@ -4,7 +4,7 @@ import routes from '../routes'
 
 export default class WhatsAppController {
     async create(req: Request, res: Response) {
-        const { params: { telefone, mensagem } } = req
+        const { telefone, mensagem } = req.body
 
         const { Client, TextContent } = require('@zenvia/sdk');
         
