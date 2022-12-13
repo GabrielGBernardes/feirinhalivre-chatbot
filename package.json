@@ -12,7 +12,7 @@
     "events": "^3.1.0",
     "expo": "~38.0.8",
     "expo-status-bar": "^1.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http": "0.0.1-security",
     "pg": "^8.2.1",
     "react": "~16.11.0",
